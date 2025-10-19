@@ -10,12 +10,12 @@ clipMountDepth = 16;
 clipMountHeight = 14;
 
 screwHoleR = 5.4 / 2;
-screwHoleLength = 10;
+screwHoleLength = 20;
 
-nutWidth = 3;
+nutWidth = 4;
 nutDepth = 8;
 nutHeight = 12;
-nutOffsetX = -8;
+nutOffsetX = -7;
 
 // Calculated
 holderOuterR = holderInnerR + holderWallWidth;
