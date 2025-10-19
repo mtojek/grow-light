@@ -1,12 +1,12 @@
 $fn = 200;
 
 // Parameters
-bracketWidth = 80;
-bracketInnerR = 20;
+bracketWidth = 90;
+bracketInnerR = 24;
 bracketWallWidth = 5;
 bracketHeight = 14;
 
-armLength = 60;
+armLength = 50;
 armHeight = 5;
 screwHoleR = 6.2 / 2;
 screwHoleOffsetX = -14;
@@ -70,6 +70,10 @@ module arm() {
         // screw hole
         translate([bracketWidth / 2 + armLength + screwHoleOffsetX, bracketOuterR / 2, bracketHeight - 1])
         cylinder(r = screwHoleR, h = armHeight + 2);
+        
+        translate([bracketWidth / 2 + armLength + screwHoleOffsetX, bracketOuterR / 2, bracketHeight - 1])
+        cylinder(r = screwHoleR + 2, h = 2); // fix: screw head
+
     }
 }
 
