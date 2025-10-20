@@ -1,15 +1,15 @@
 $fn = 200;
 
 // Parameters
-bracketWidth = 90;
-bracketInnerR = 24;
+bracketWidth = 64;
+bracketInnerR = 25 / 2;
 bracketWallWidth = 5;
 bracketHeight = 14;
 
 armLength = 50;
 armHeight = 5;
 screwHoleR = 6.2 / 2;
-screwHoleOffsetX = -14;
+screwHoleOffsetX = -10;
 
 screwHoleR2 = 5.4 / 2;
 screwHoleOffsetY2 = -8;
